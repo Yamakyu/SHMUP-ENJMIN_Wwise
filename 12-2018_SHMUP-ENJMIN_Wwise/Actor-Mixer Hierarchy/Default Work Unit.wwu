@@ -14,6 +14,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="canette" ID="{2BEDBCBF-DEF6-406C-80EF-61AD6C4F1095}" ShortID="885852678">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="3.52462069436852E-02"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.92287640103882"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.72570667031165"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>canette.wav</AudioFile>
 						</AudioFileSource>
