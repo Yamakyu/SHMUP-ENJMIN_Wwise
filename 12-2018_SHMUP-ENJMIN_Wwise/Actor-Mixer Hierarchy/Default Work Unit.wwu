@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{063F865F-65D7-4253-ADC3-1D689B754A50}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{063F865F-65D7-4253-ADC3-1D689B754A50}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{063F865F-65D7-4253-ADC3-1D689B754A50}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="canette" ID="{05026147-594B-4600-82F5-AEA59DC00A7A}" ShortID="470252593">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="canette" ID="{2BEDBCBF-DEF6-406C-80EF-61AD6C4F1095}" ShortID="885852678">
+							<Language>SFX</Language>
+							<AudioFile>canette.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="canette" ID="{2BEDBCBF-DEF6-406C-80EF-61AD6C4F1095}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
