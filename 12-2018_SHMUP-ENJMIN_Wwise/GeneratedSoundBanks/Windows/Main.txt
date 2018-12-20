@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	test			\Default Work Unit\test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	885852678	canette	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2018-12-06_[SHMUP]\_Session_Unity\SHMUP-ENJMIN_Wwise\12-2018_SHMUP-ENJMIN_Wwise\.cache\Windows\SFX\canette_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\canette		1375324
+
