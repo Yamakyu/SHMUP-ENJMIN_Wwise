@@ -3,20 +3,66 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="test" ID="{3AB3F505-10C5-446C-9BC4-8EF864EDE799}">
+				<Folder Name="Hook_events" ID="{51EFCEE4-9B65-4F65-B429-B0900D52D6A5}" ShortID="728992415">
 					<ChildrenList>
-						<Action Name="" ID="{952BFE06-D976-46D6-BD0E-7B0F138B2EED}" ShortID="885604910">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="canette" ID="{05026147-594B-4600-82F5-AEA59DC00A7A}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="H_Launch" ID="{4A53D5E0-730E-4451-941D-29510C2E32BE}">
+							<ChildrenList>
+								<Action Name="" ID="{1EA47650-BBD0-4379-BD1A-E7CC481013A1}" ShortID="1017029556">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="H_Launch-1_-_V0_1_-_19-01-08" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="H_Grab" ID="{42F915E0-2CDD-4D78-B9EE-6B9313581731}">
+							<ChildrenList>
+								<Action Name="" ID="{8C30219C-C4CF-47E3-9AEC-656E7C1EB126}" ShortID="774569217">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="H_Winch" ID="{B2866DEC-7D03-4866-AB98-A43D34C1EC3A}">
+							<ChildrenList>
+								<Action Name="" ID="{E29D7DA6-6368-4995-8EEF-F3CAFC78E8CC}" ShortID="125966667">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}">
+							<ChildrenList>
+								<Action Name="" ID="{49C16312-F23A-4C6E-9650-6224856E3F99}" ShortID="520520067">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

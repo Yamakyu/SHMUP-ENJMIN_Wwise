@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{8EE716E8-8995-4242-9F80-CBAE7143F242}">
 					<ObjectInclusionList>
-						<ObjectRef Name="test" ID="{3AB3F505-10C5-446C-9BC4-8EF864EDE799}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="H_Launch" ID="{4A53D5E0-730E-4451-941D-29510C2E32BE}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="H_Winch" ID="{B2866DEC-7D03-4866-AB98-A43D34C1EC3A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="H_Grab" ID="{42F915E0-2CDD-4D78-B9EE-6B9313581731}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
