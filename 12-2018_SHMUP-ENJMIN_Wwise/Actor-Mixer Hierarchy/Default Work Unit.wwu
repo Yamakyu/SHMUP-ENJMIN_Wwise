@@ -4,12 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{063F865F-65D7-4253-ADC3-1D689B754A50}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Hook" ID="{F0371FA1-A7FD-456F-8677-6672FE2D7C22}" ShortID="265245197">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" ShortID="629410763">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -22,7 +26,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="H_Grab-1_-_V0_1_-_19-01-08" ID="{5947A66B-43EC-4A39-9FF5-B1951B0C80FF}" ShortID="542581243">
+								<Sound Name="H_Grab-1_-_V0_1" ID="{5947A66B-43EC-4A39-9FF5-B1951B0C80FF}" ShortID="542581243">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -41,7 +52,14 @@
 										<ActiveSource Name="SFX_-_H_Grab-1_-_V0_1_-_19-01-08" ID="{9E5B4A36-FF67-4199-9F1C-191FD3DD9C89}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="H_Grab-2_-_V0_1_-_19-01-08" ID="{CC008F1E-8792-4E0B-AAE7-851159975885}" ShortID="287287653">
+								<Sound Name="H_Grab-2_-_V0_1" ID="{CC008F1E-8792-4E0B-AAE7-851159975885}" ShortID="287287653">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -60,7 +78,14 @@
 										<ActiveSource Name="SFX_-_H_Grab-2_-_V0_1_-_19-01-08" ID="{B15C802F-9EB7-40AB-A53B-CB336338BE10}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="H_Grab-3_-_V0_1_-_19-01-08" ID="{5FA70F56-1935-435E-81AE-B6124A2448DA}" ShortID="807212733">
+								<Sound Name="H_Grab-3_-_V0_1" ID="{5FA70F56-1935-435E-81AE-B6124A2448DA}" ShortID="807212733">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -79,13 +104,70 @@
 										<ActiveSource Name="SFX_-_H_Grab-3_-_V0_1_-_19-01-08" ID="{769E5AE0-5DE7-40EC-B2C2-10180AF45D20}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="H_Grab-1_-_V0_1_1" ID="{FB510488-D683-4018-9D47-D8EBB4147E47}" ShortID="686453557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_H_Grab-1_-_V0_1_1_-_19-01-11" ID="{39B4E3AE-87A7-4663-A15B-D5FD5D5DBC9B}" ShortID="813485406">
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_H_Grab-1_-_V0.1.1_-_19-01-11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_H_Grab-1_-_V0_1_1_-_19-01-11" ID="{39B4E3AE-87A7-4663-A15B-D5FD5D5DBC9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="H_Grab-2_-_V0_1_1" ID="{07481CB7-A76E-44BA-9120-8AC28DAEAE29}" ShortID="418800896">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_H_Grab-2_-_V0_1_1_-_19-01-11" ID="{64E56485-FD79-402A-BCAD-9B6D4E76D3A1}" ShortID="37155982">
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_H_Grab-2_-_V0.1.1_-_19-01-11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_H_Grab-2_-_V0_1_1_-_19-01-11" ID="{64E56485-FD79-402A-BCAD-9B6D4E76D3A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="H_Grab-3_-_V0_1_1" ID="{DD5722E4-FA34-4203-B38E-81841663A007}" ShortID="618773092">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_H_Grab-3_-_V0_1_1_-_19-01-11" ID="{2AC41E59-061A-4676-8EA5-C2CB56C0AA58}" ShortID="221440909">
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_H_Grab-3_-_V0_1_1_-_19-01-11" ID="{2AC41E59-061A-4676-8EA5-C2CB56C0AA58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" ShortID="221367184">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -98,7 +180,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="H_Pull-1_-_V0_1_-_19-01-08-001" ID="{0B57F5F6-C5DB-4560-BCDB-6E12421C17BE}" ShortID="393066474">
+								<Sound Name="H_Pull-1_-_V0_1" ID="{0B57F5F6-C5DB-4560-BCDB-6E12421C17BE}" ShortID="393066474">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -117,7 +199,7 @@
 										<ActiveSource Name="SFX_-_H_Pull-1_-_V0_1_-_19-01-08-001" ID="{19D87A9D-EFD9-43D1-8DC7-21F501445898}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="H_Pull-1_-_V0_1_-_19-01-08-002" ID="{B84083FB-BDC5-466A-B7FA-63F66549DFEC}" ShortID="194420426">
+								<Sound Name="H_Pull-2_-_V0_1" ID="{B84083FB-BDC5-466A-B7FA-63F66549DFEC}" ShortID="194420426">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -138,7 +220,14 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="H_Launch-1_-_V0_1_-_19-01-08" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" ShortID="502977639">
+						<Sound Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" ShortID="502977639">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -159,10 +248,133 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Spaceship" ID="{5F3665A7-4D71-4D08-9FBC-E28A22A90A91}" ShortID="740811171"/>
-				<Folder Name="UI" ID="{EE63EFEE-BD88-48D8-92BC-33877AAE32CD}" ShortID="150611977"/>
-				<Folder Name="Menu" ID="{2EE5A420-0047-40B9-AE9C-B2405077209B}" ShortID="860385346"/>
+				<Folder Name="Spaceship" ID="{5F3665A7-4D71-4D08-9FBC-E28A22A90A91}" ShortID="740811171">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" ShortID="301232726">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{147C0C6C-3662-4511-AC4B-804734CAA716}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" ShortID="487054228">
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" ShortID="160854746">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F06F6150-4781-4DF7-903F-A5C064BAC411}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_S_Hurt_-_V0_1_-_19-01-11" ID="{AC7F9E72-D59F-494A-9E05-0AB1BD7F27C7}" ShortID="811857669">
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_S_Hurt_-_V0_1_-_19-01-11" ID="{AC7F9E72-D59F-494A-9E05-0AB1BD7F27C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="S_HitShield_-_V0_1" ID="{5744ACFA-E9D1-48B8-993A-158007AD025C}" ShortID="312769131">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{61429049-7478-4C03-AAB2-141514AC59AC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_S_HitShield_-_V0_1_-_19-01-11" ID="{319827C1-8C37-4588-8825-389A07D3D038}" ShortID="544212774">
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_S_HitShield_-_V0_1_-_19-01-11" ID="{319827C1-8C37-4588-8825-389A07D3D038}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{EE63EFEE-BD88-48D8-92BC-33877AAE32CD}" ShortID="150611977">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Menu" ID="{2EE5A420-0047-40B9-AE9C-B2405077209B}" ShortID="860385346">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
 				<Folder Name="Enemies" ID="{7BAABB79-A0CD-4470-9E9F-17993B85C3AB}" ShortID="969727941">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="Small Bob" ID="{8F0E530F-D765-4CFD-80C7-330DBD15DF25}" ShortID="809785088"/>
 						<Folder Name="Mid Jim" ID="{BF8E9F6A-958E-4B91-BDDE-926D59877170}" ShortID="617151661"/>

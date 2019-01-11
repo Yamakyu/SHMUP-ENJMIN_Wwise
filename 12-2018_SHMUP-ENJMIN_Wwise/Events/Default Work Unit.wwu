@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Hook_events" ID="{51EFCEE4-9B65-4F65-B429-B0900D52D6A5}" ShortID="728992415">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="H_Launch" ID="{4A53D5E0-730E-4451-941D-29510C2E32BE}">
 							<ChildrenList>
@@ -13,7 +17,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="H_Launch-1_-_V0_1_-_19-01-08" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+											<ObjectRef Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -56,6 +60,56 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Spaceship_events" ID="{3AE1CAE4-DA13-48B5-B69F-525161E5CC86}" ShortID="718728166">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="S_Dash" ID="{298AA93C-231E-4AC8-8EAB-8EA7DD2FA85C}">
+							<ChildrenList>
+								<Action Name="" ID="{F42E3E49-9EE7-4CA1-85B1-E5097C643FED}" ShortID="120592316">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_HitShield" ID="{E9F55750-9F8F-4378-A104-20BC1662B546}">
+							<ChildrenList>
+								<Action Name="" ID="{9487EE71-AED0-4927-89B6-5B8A020A0B7C}" ShortID="248243934">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_HitShield_-_V0_1" ID="{5744ACFA-E9D1-48B8-993A-158007AD025C}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Hurt" ID="{95D90F31-D624-4FEF-8407-0C007FA44D80}">
+							<ChildrenList>
+								<Action Name="" ID="{D080196B-2396-4160-9776-EF69636B723D}" ShortID="63109902">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
