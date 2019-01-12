@@ -11,6 +11,17 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" ShortID="629410763">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -165,6 +176,16 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" ShortID="221367184">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -222,6 +243,16 @@
 						</RandomSequenceContainer>
 						<Sound Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" ShortID="502977639">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -256,6 +287,11 @@
 					<ChildrenList>
 						<Sound Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" ShortID="301232726">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -269,6 +305,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -280,6 +321,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" ShortID="487054228">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.012886005905466"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.345762711864407"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.74973843900398E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.654011299435028"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</AudioFile>
 								</AudioFileSource>
@@ -290,6 +338,11 @@
 						</Sound>
 						<Sound Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" ShortID="160854746">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -303,6 +356,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -314,6 +372,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_-_S_Hurt_-_V0_1_-_19-01-11" ID="{AC7F9E72-D59F-494A-9E05-0AB1BD7F27C7}" ShortID="811857669">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="6.85871256240277E-03"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.298713322398396"/>
+										<Property Name="TrimBegin" Type="Real64" Value="5.44662468190808E-03"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.990349553490067"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</AudioFile>
 								</AudioFileSource>
@@ -324,6 +388,11 @@
 						</Sound>
 						<Sound Name="S_HitShield_-_V0_1" ID="{5744ACFA-E9D1-48B8-993A-158007AD025C}" ShortID="312769131">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -337,6 +406,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -348,6 +422,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_-_S_HitShield_-_V0_1_-_19-01-11" ID="{319827C1-8C37-4588-8825-389A07D3D038}" ShortID="544212774">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="6.29677419354839E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.24258064516129"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</AudioFile>
 								</AudioFileSource>

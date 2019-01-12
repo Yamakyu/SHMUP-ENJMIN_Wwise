@@ -88,6 +88,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="S_HitShield" ID="{E9F55750-9F8F-4378-A104-20BC1662B546}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9487EE71-AED0-4927-89B6-5B8A020A0B7C}" ShortID="248243934">
 									<PropertyList>

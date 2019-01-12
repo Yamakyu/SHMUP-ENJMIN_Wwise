@@ -44,11 +44,11 @@
 				</File>
 				<File Id="487054228" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_Dash_-_V0.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_S_Dash_-_V0.1_-_19-01-11_86686D9D.wem</Path>
 				</File>
 				<File Id="544212774" Language="SFX">
 					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_748686E2.wem</Path>
 				</File>
 				<File Id="716615627" Language="SFX">
 					<ShortName>SFX_-_H_Launch-1_-_V0.1_-_19-01-08.wav</ShortName>
@@ -56,7 +56,7 @@
 				</File>
 				<File Id="811857669" Language="SFX">
 					<ShortName>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_Hurt_-_V0.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_S_Hurt_-_V0.1_-_19-01-11_681EDB58.wem</Path>
 				</File>
 				<File Id="813485406" Language="SFX">
 					<ShortName>SFX_-_H_Grab-1_-_V0.1.1_-_19-01-11.wav</ShortName>
