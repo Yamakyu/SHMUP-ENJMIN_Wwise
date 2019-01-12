@@ -90,7 +90,6 @@
 						<Event Name="S_HitShield" ID="{E9F55750-9F8F-4378-A104-20BC1662B546}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9487EE71-AED0-4927-89B6-5B8A020A0B7C}" ShortID="248243934">
@@ -114,6 +113,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Destroy" ID="{438E003D-D6C3-465A-A52E-F074FFE6DDA1}">
+							<ChildrenList>
+								<Action Name="" ID="{2720B9A1-507A-472C-BFA8-D3B4A4CF64C2}" ShortID="854426303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_Destroy_-_V0_1" ID="{4870F73D-0EF0-4511-BB1E-AB510D06752F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

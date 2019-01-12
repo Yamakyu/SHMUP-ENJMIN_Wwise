@@ -26,45 +26,50 @@
 				<Event Id="3847287689" Name="H_Winch" ObjectPath="\Events\Default Work Unit\Hook_events\H_Winch"/>
 				<Event Id="387627068" Name="H_Winch_Stop" ObjectPath="\Events\Default Work Unit\Hook_events\H_Winch_Stop"/>
 				<Event Id="1189220547" Name="S_Dash" ObjectPath="\Events\Default Work Unit\Spaceship_events\S_Dash"/>
+				<Event Id="1864059347" Name="S_Destroy" ObjectPath="\Events\Default Work Unit\Spaceship_events\S_Destroy"/>
 				<Event Id="2907828633" Name="S_HitShield" ObjectPath="\Events\Default Work Unit\Spaceship_events\S_HitShield"/>
 				<Event Id="4199377676" Name="S_Hurt" ObjectPath="\Events\Default Work Unit\Spaceship_events\S_Hurt"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="37155982" Language="SFX">
 					<ShortName>SFX_-_H_Grab-2_-_V0.1.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_H_Grab-2_-_V0.1.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_H_Grab-2_-_V0.1.1_-_19-01-11_1F72EA25.wem</Path>
 				</File>
 				<File Id="221440909" Language="SFX">
 					<ShortName>SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11_1F72EA25.wem</Path>
+				</File>
+				<File Id="308640106" Language="SFX">
+					<ShortName>SFX_-_S_Destroy_-_V0.1_-_19-01-12.wav</ShortName>
+					<Path>SFX\SFX_-_S_Destroy_-_V0.1_-_19-01-12_1F72EA25.wem</Path>
 				</File>
 				<File Id="378128112" Language="SFX">
 					<ShortName>Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002.wav</ShortName>
-					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002_56D34C19.wem</Path>
+					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002_1F72EA25.wem</Path>
 				</File>
 				<File Id="487054228" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_Dash_-_V0.1_-_19-01-11_86686D9D.wem</Path>
+					<Path>SFX\SFX_-_S_Dash_-_V0.1_-_19-01-11_5E7173D9.wem</Path>
 				</File>
 				<File Id="544212774" Language="SFX">
 					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_748686E2.wem</Path>
+					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_8792C906.wem</Path>
 				</File>
 				<File Id="716615627" Language="SFX">
 					<ShortName>SFX_-_H_Launch-1_-_V0.1_-_19-01-08.wav</ShortName>
-					<Path>SFX\SFX_-_H_Launch-1_-_V0.1_-_19-01-08_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_H_Launch-1_-_V0.1_-_19-01-08_1F72EA25.wem</Path>
 				</File>
 				<File Id="811857669" Language="SFX">
 					<ShortName>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_S_Hurt_-_V0.1_-_19-01-11_681EDB58.wem</Path>
+					<Path>SFX\SFX_-_S_Hurt_-_V0.1_-_19-01-11_F491E8B4.wem</Path>
 				</File>
 				<File Id="813485406" Language="SFX">
 					<ShortName>SFX_-_H_Grab-1_-_V0.1.1_-_19-01-11.wav</ShortName>
-					<Path>SFX\SFX_-_H_Grab-1_-_V0.1.1_-_19-01-11_56D34C19.wem</Path>
+					<Path>SFX\SFX_-_H_Grab-1_-_V0.1.1_-_19-01-11_1F72EA25.wem</Path>
 				</File>
 				<File Id="1008119680" Language="SFX">
 					<ShortName>Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-001.wav</ShortName>
-					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-001_56D34C19.wem</Path>
+					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-001_1F72EA25.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
