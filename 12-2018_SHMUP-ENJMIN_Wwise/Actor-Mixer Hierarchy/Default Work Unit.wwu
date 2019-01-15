@@ -30,7 +30,51 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+									<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+										<Conversion Name="Vorbis_SHMUP (Custom)" ID="{A83DA37F-E89A-4093-8374-888C88A8748A}">
+											<PropertyList>
+												<Property Name="Channels" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="LRMix" Type="Real64">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MinSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SRConversionQuality" Type="int32">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ConversionPluginInfoList>
+												<ConversionPluginInfo Platform="Windows">
+													<ConversionPlugin Name="" ID="{1DA466C7-D816-4334-8CB9-6FB67CE81A50}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+														<PropertyList>
+															<Property Name="QualityFactor" Type="Real32" Value="8"/>
+														</PropertyList>
+													</ConversionPlugin>
+												</ConversionPluginInfo>
+											</ConversionPluginInfoList>
+										</Conversion>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -47,7 +91,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -73,7 +117,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -99,7 +143,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -118,7 +162,7 @@
 								<Sound Name="H_Grab-1_-_V0_1_1" ID="{FB510488-D683-4018-9D47-D8EBB4147E47}" ShortID="686453557">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -137,7 +181,7 @@
 								<Sound Name="H_Grab-2_-_V0_1_1" ID="{07481CB7-A76E-44BA-9120-8AC28DAEAE29}" ShortID="418800896">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -156,7 +200,7 @@
 								<Sound Name="H_Grab-3_-_V0_1_1" ID="{DD5722E4-FA34-4203-B38E-81841663A007}" ShortID="618773092">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -194,7 +238,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -204,7 +248,7 @@
 								<Sound Name="H_Pull-1_-_V0_1" ID="{0B57F5F6-C5DB-4560-BCDB-6E12421C17BE}" ShortID="393066474">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -223,7 +267,7 @@
 								<Sound Name="H_Pull-2_-_V0_1" ID="{B84083FB-BDC5-466A-B7FA-63F66549DFEC}" ShortID="194420426">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -241,42 +285,74 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" ShortID="502977639">
-							<PropertyList>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Hook_Launch" ID="{EF7294E0-ABA6-48F0-9D85-FB4BA6711BEB}" ShortID="581886780">
 							<ChildrenList>
-								<AudioFileSource Name="SFX_-_H_Launch-1_-_V0_1_-_19-01-08" ID="{12E16AF0-BFE7-465F-9FC3-544FD516F014}" ShortID="716615627">
-									<Language>SFX</Language>
-									<AudioFile>SFX_-_H_Launch-1_-_V0.1_-_19-01-08.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" ShortID="502977639">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_H_Launch-1_-_V0_1_-_19-01-08" ID="{12E16AF0-BFE7-465F-9FC3-544FD516F014}" ShortID="716615627">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.3518822266772E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.19678431849017E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_H_Launch-1_-_V0.1_-_19-01-08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_H_Launch-1_-_V0_1_-_19-01-08" ID="{12E16AF0-BFE7-465F-9FC3-544FD516F014}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hook_Launch-1_-_V0_2" ID="{FA9A5699-9AF6-4BA9-B4F9-B402FAE97FD6}" ShortID="539711000">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_H_Launch-1_-_V0_2_-_19-01-16" ID="{0A5463DD-7450-4681-AA04-720E96D414DC}" ShortID="868740909">
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_H_Launch-1_-_V0.2_-_19-01-16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_H_Launch-1_-_V0_2_-_19-01-16" ID="{0A5463DD-7450-4681-AA04-720E96D414DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_-_H_Launch-1_-_V0_1_-_19-01-08" ID="{12E16AF0-BFE7-465F-9FC3-544FD516F014}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Spaceship" ID="{5F3665A7-4D71-4D08-9FBC-E28A22A90A91}" ShortID="740811171">
@@ -285,62 +361,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Sound Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" ShortID="301232726">
-							<PropertyList>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{147C0C6C-3662-4511-AC4B-804734CAA716}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" ShortID="487054228">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.012886005905466"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.345762711864407"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="3.74973843900398E-02"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.654011299435028"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" ShortID="160854746">
 							<PropertyList>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -374,7 +394,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -421,10 +441,15 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -464,7 +489,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
@@ -480,6 +505,90 @@
 								<ActiveSource Name="SFX_-_S_Destroy_-_V0_1_-_19-01-12" ID="{9298EA9D-4E09-45D1-9C10-6A2EE6B1AA02}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Dash" ID="{6E263D73-5602-45DC-A278-110E143D4A58}" ShortID="406018206">
+							<ChildrenList>
+								<Sound Name="S_Dash_-_V0_2" ID="{808CF674-D0D4-4955-9330-BF1D3B99DBF0}" ShortID="41839561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_S_Dash_-_V0_2_-_19-01-16" ID="{A7E7E843-6FC8-4D6D-AAFB-AC3DA88ADB15}" ShortID="668240043">
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_S_Dash_-_V0_2_-_19-01-16" ID="{A7E7E843-6FC8-4D6D-AAFB-AC3DA88ADB15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" ShortID="301232726">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{147C0C6C-3662-4511-AC4B-804734CAA716}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" ShortID="487054228">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.012886005905466"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.345762711864407"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.74973843900398E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.654011299435028"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_S_Dash_-_V0.1_-_19-01-11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_S_Dash_-_V0_1_-_19-01-11" ID="{D2973F40-DE9A-4F0E-B37C-BF0635C27319}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{EE63EFEE-BD88-48D8-92BC-33877AAE32CD}" ShortID="150611977">

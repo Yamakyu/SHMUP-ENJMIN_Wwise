@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2BAEC1DD-5AE4-4120-96AC-E63406B97D66}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2BAEC1DD-5AE4-4120-96AC-E63406B97D66}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2BAEC1DD-5AE4-4120-96AC-E63406B97D66}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Level1_mix" ID="{0509D2A1-130F-40F8-852F-5E8FCF147D25}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_HitShield_-_V0_1" ID="{5744ACFA-E9D1-48B8-993A-158007AD025C}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_Destroy_-_V0_1" ID="{4870F73D-0EF0-4511-BB1E-AB510D06752F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

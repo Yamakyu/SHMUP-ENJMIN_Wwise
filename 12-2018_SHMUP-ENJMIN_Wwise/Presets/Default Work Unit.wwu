@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4CC8EA12-F5BD-43E0-BA98-39C4E377EC5D}" SchemaVersion="89">
 	<Presets>
-		<WorkUnit Name="Default Work Unit" ID="{4CC8EA12-F5BD-43E0-BA98-39C4E377EC5D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4CC8EA12-F5BD-43E0-BA98-39C4E377EC5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Conversion Name="OGG_Vorbis_SHMUP" ID="{99677C2D-DF71-4F75-940F-BDFAD41A9AF9}">
+					<Comment>Tentative. Aucune idée de ce que ça va donner :9</Comment>
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SRConversionQuality" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Windows">
+							<ConversionPlugin Name="" ID="{29391168-A183-42C3-AFE3-F00A9C019010}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+								<PropertyList>
+									<Property Name="QualityFactor" Type="Real32" Value="8"/>
+								</PropertyList>
+							</ConversionPlugin>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+			</ChildrenList>
+		</WorkUnit>
 	</Presets>
 </WwiseDocument>

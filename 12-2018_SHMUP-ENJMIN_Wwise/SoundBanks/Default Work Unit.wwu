@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{8EE716E8-8995-4242-9F80-CBAE7143F242}">
 					<ObjectInclusionList>
 						<ObjectRef Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_HitShield" ID="{E9F55750-9F8F-4378-A104-20BC1662B546}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="H_Launch" ID="{4A53D5E0-730E-4451-941D-29510C2E32BE}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_Destroy" ID="{438E003D-D6C3-465A-A52E-F074FFE6DDA1}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}" Filter="7" Origin="Manual"/>
