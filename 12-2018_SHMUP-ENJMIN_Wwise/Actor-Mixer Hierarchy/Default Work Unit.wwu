@@ -168,6 +168,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="H_Grab-1_-_V0_1_1" ID="{FB510488-D683-4018-9D47-D8EBB4147E47}" ShortID="686453557">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -341,6 +348,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Hook_Launch-1_-_V0_2" ID="{FA9A5699-9AF6-4BA9-B4F9-B402FAE97FD6}" ShortID="539711000">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -731,15 +750,18 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>20</Value>
+												<Value>15</Value>
 											</ValueList>
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>2</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-200</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{80BC2D79-6066-48D9-93DC-CB23CFAC0CDF}">
@@ -758,7 +780,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -777,7 +799,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="7.31620193183889E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="2"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.14186721204131E-03"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.998380171314016"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.20661053398943"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_-_E3_Destroy_-_V0.1_-_19-01-19.wav</AudioFile>
@@ -894,7 +916,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="SFX_-_E23_Damaged_-_V0_1_-_19-01-19" ID="{4204E5F3-6FE5-4E2F-8ABD-45285DE81397}" ShortID="681518112">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.183322033898305"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.77408419901586E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.258227811190086"/>
 										<Property Name="FadeOutShape" Type="int16" Value="2"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.591361399671952"/>
 									</PropertyList>
@@ -919,6 +942,9 @@
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>400</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{CC7FD998-F7A0-4CEB-A1CE-81838D81008D}">
@@ -948,7 +974,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="SFX_-_E1_Destroy_-_V0_1_-_19-01-18" ID="{4B5235F2-6E73-4732-B7F3-1D9E0E16CD79}" ShortID="195838260">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="9.97630763623111E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.304319300164024"/>
 										<Property Name="FadeOutShape" Type="int16" Value="2"/>
 										<Property Name="TrimEnd" Type="Real64" Value="1.00014579916166"/>
 									</PropertyList>
@@ -969,10 +995,13 @@
 								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>2</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{0E71C709-BD2F-4F7A-9646-E2B533D4D51F}">

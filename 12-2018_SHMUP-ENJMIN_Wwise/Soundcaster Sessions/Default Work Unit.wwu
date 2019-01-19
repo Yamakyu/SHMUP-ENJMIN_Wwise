@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Level1_mix" ID="{0509D2A1-130F-40F8-852F-5E8FCF147D25}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
+							<ObjectRef Name="Menu_Start" ID="{B190BABA-27F5-458D-8C15-DF280F6A9824}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
@@ -24,6 +24,10 @@
 						<Module>
 							<ObjectRef Name="M_Select_-_V0_1" ID="{073690C8-2767-4E1B-9F21-38243D6F6B4A}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
@@ -78,7 +82,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}"/>
+						<CurrentSwitchRef Name="Menu" ID="{E867E96C-8364-4C18-92EE-815428726415}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

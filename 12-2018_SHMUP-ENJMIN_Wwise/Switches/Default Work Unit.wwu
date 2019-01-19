@@ -8,6 +8,7 @@
 						<SwitchGroup Name="Levels" ID="{9FE5601B-4F0D-4EA1-A089-0C7737B51A73}">
 							<ChildrenList>
 								<Switch Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}"/>
+								<Switch Name="Menu" ID="{E867E96C-8364-4C18-92EE-815428726415}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>

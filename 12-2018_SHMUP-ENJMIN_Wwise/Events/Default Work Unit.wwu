@@ -272,6 +272,40 @@
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{429019D8-23F3-4542-B29B-E8386B2FB0F8}" ShortID="156810770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7F0C166B-5B48-4FAE-9A06-B527B8046CD8}" ShortID="927770697">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{E867E96C-8364-4C18-92EE-815428726415}" WorkUnitID="{4F8C6985-1394-4928-8585-1764048F83EB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02420C77-F2A2-4E03-B84B-AF1B81AC403C}" ShortID="281333456">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
 						</Event>
 						<Event Name="M_Select" ID="{A11D3952-FCA8-4065-BC46-779F7259FCFA}">
 							<PropertyList>

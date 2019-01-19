@@ -48,7 +48,7 @@
 				</File>
 				<File Id="195838260" Language="SFX">
 					<ShortName>SFX_-_E1_Destroy_-_V0.1_-_19-01-18.wav</ShortName>
-					<Path>SFX\SFX_-_E1_Destroy_-_V0.1_-_19-01-18_10F79B60.wem</Path>
+					<Path>SFX\SFX_-_E1_Destroy_-_V0.1_-_19-01-18_C7C4B0A1.wem</Path>
 				</File>
 				<File Id="221440909" Language="SFX">
 					<ShortName>SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11.wav</ShortName>
@@ -56,7 +56,7 @@
 				</File>
 				<File Id="289811282" Language="SFX">
 					<ShortName>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_69464525.wem</Path>
+					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_AB311D7F.wem</Path>
 				</File>
 				<File Id="308640106" Language="SFX">
 					<ShortName>SFX_-_S_Destroy_-_V0.1_-_19-01-12.wav</ShortName>
@@ -68,11 +68,11 @@
 				</File>
 				<File Id="452405396" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_5F180C93.wem</Path>
+					<Path>SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_80785BBA.wem</Path>
 				</File>
 				<File Id="458525143" Language="SFX">
 					<ShortName>SFX_-_E3_Destroy_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_E3_Destroy_-_V0.1_-_19-01-19_FD311209.wem</Path>
+					<Path>SFX\SFX_-_E3_Destroy_-_V0.1_-_19-01-19_450650FF.wem</Path>
 				</File>
 				<File Id="544212774" Language="SFX">
 					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
@@ -80,7 +80,11 @@
 				</File>
 				<File Id="555834197" Language="SFX">
 					<ShortName>SFX_-_E2_Destroy_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_E2_Destroy_-_V0.1_-_19-01-19_36806728.wem</Path>
+					<Path>SFX\SFX_-_E2_Destroy_-_V0.1_-_19-01-19_C3288254.wem</Path>
+				</File>
+				<File Id="633527820" Language="SFX">
+					<ShortName>MUSIC_-_Menu_Music_V0.1_-_19-01-19_-_100BPM_-_9bars.wav</ShortName>
+					<Path>SFX\MUSIC_-_Menu_Music_V0.1_-_19-01-19_-_100BPM_-_9bars_0CBEF50C.wem</Path>
 				</File>
 				<File Id="668240043" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
@@ -88,11 +92,11 @@
 				</File>
 				<File Id="668586021" Language="SFX">
 					<ShortName>SFX_-_M_Confirm_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_M_Confirm_-_V0.1_-_19-01-19_9948C2F8.wem</Path>
+					<Path>SFX\SFX_-_M_Confirm_-_V0.1_-_19-01-19_C18BBE28.wem</Path>
 				</File>
 				<File Id="681518112" Language="SFX">
 					<ShortName>SFX_-_E23_Damaged_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_E23_Damaged_-_V0.1_-_19-01-19_7602EF7C.wem</Path>
+					<Path>SFX\SFX_-_E23_Damaged_-_V0.1_-_19-01-19_CCCD6CEE.wem</Path>
 				</File>
 				<File Id="811857669" Language="SFX">
 					<ShortName>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</ShortName>
