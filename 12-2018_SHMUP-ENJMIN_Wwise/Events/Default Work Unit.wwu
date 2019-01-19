@@ -176,7 +176,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="E2_Destroy_-_V0_1" ID="{FC32725C-FDBE-446E-9F7A-3CDDDF46106D}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+											<ObjectRef Name="E2_Destroy_-_V0_2" ID="{9561DCCB-F025-4443-9A18-1A1CD406BF76}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -218,7 +218,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="E3_Destroy_-_V0_1" ID="{0EB163FC-0510-4CDF-9F88-D7F017AA2D14}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+											<ObjectRef Name="E3_Destroy_-_V0_3" ID="{533E40D6-2418-4156-A2E6-B600546C7AB4}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

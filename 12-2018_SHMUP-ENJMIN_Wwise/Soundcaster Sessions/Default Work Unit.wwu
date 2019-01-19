@@ -54,7 +54,7 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E3_Destroy_-_V0_1" ID="{0EB163FC-0510-4CDF-9F88-D7F017AA2D14}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="E3_Destroy_-_V0_2" ID="{CC20D82E-A3CA-4D2E-B026-017CA8E57C5F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
@@ -82,7 +82,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Menu" ID="{E867E96C-8364-4C18-92EE-815428726415}"/>
+						<CurrentSwitchRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
