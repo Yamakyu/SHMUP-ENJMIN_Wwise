@@ -6,32 +6,52 @@
 				<SoundcasterSession Name="Level1_mix" ID="{0509D2A1-130F-40F8-852F-5E8FCF147D25}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
+							<ObjectRef Name="Hook_Grab" ID="{6E87DDF7-DCD6-4E2D-8D6A-F531B2052F4B}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Hook_Pull-Winch" ID="{EE8502CA-C3B0-4BF6-8B07-56CECE8216A9}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
-							<Position X="1" Y="0"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M_Confirm_-_V0_1" ID="{EC315DE3-69C0-461C-A4C6-70B25F1DDF51}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M_Select_-_V0_1" ID="{073690C8-2767-4E1B-9F21-38243D6F6B4A}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="H_Winch_Stop" ID="{66B72E88-DEA3-406E-BAD9-78B26F840311}" WorkUnitID="{8D7773A7-CFE7-4C1B-8479-DE1EA2A6B5BF}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Hook_Launch-1_-_V0_1" ID="{E4EA67D3-B1B7-4511-A47A-B8A68850DBA8}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="Hook_Launch-1_-_V0_2" ID="{FA9A5699-9AF6-4BA9-B4F9-B402FAE97FD6}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="S_Dash_-_V0_1" ID="{11C721ED-023D-44AA-B608-6ADD028EB76F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="S_Dash_-_V0_2" ID="{808CF674-D0D4-4955-9330-BF1D3B99DBF0}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="S_HitShield_-_V0_1" ID="{5744ACFA-E9D1-48B8-993A-158007AD025C}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="E1_Destroy_-_V0_1" ID="{7A0028EE-E4D8-4F4E-9B07-D8A455D7B982}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="E2_Destroy_-_V0_1" ID="{FC32725C-FDBE-446E-9F7A-3CDDDF46106D}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="E3_Destroy_-_V0_1" ID="{0EB163FC-0510-4CDF-9F88-D7F017AA2D14}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="S_Destroy_-_V0_1" ID="{4870F73D-0EF0-4511-BB1E-AB510D06752F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
@@ -40,6 +60,14 @@
 						<Module>
 							<ObjectRef Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="E3_ShieldGrab_-_V0_1" ID="{BC4F080E-B6A5-4B77-A809-8ADA30C81951}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="E2-3_Damaged_-_V0_1" ID="{D2FC5D5B-2B21-40CE-A70C-514AE089F0BE}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

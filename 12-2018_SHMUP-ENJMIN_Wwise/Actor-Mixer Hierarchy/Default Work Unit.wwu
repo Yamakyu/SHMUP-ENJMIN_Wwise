@@ -17,14 +17,22 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DA28D103-9586-47C9-94CF-58EE0EBA69C3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -232,7 +240,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -363,6 +371,11 @@
 					<ChildrenList>
 						<Sound Name="S_Hurt_-_V0_1" ID="{F2D01A69-9C7E-47CD-ACBF-26CD6C70D7CC}" ShortID="160854746">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -388,7 +401,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>4.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -429,8 +442,8 @@
 											<Modifier Name="" ID="{61429049-7478-4C03-AAB2-141514AC59AC}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="25"/>
-													<Property Name="Min" Type="Real64" Value="-25"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -443,7 +456,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -508,6 +521,23 @@
 						<Folder Name="Dash" ID="{6E263D73-5602-45DC-A278-110E143D4A58}" ShortID="406018206">
 							<ChildrenList>
 								<Sound Name="S_Dash_-_V0_2" ID="{808CF674-D0D4-4955-9330-BF1D3B99DBF0}" ShortID="41839561">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
@@ -602,6 +632,92 @@
 						<Property Name="Color" Type="int16" Value="8"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Sound Name="M_Confirm_-_V0_1" ID="{EC315DE3-69C0-461C-A4C6-70B25F1DDF51}" ShortID="247110581">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_M_Confirm_-_V0_1_-_19-01-19" ID="{277A7090-64B1-46C6-8061-AA9EE384B262}" ShortID="668586021">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="7.8489148687395E-04"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.061305631492619"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.92445743436975E-03"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.687559686531802"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_M_Confirm_-_V0.1_-_19-01-19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_M_Confirm_-_V0_1_-_19-01-19" ID="{277A7090-64B1-46C6-8061-AA9EE384B262}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="M_Select_-_V0_1" ID="{073690C8-2767-4E1B-9F21-38243D6F6B4A}" ShortID="190386288">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_M_Select_-_V0_1_-_19-01-19" ID="{6C93F085-8CF3-440A-9C1A-D594F6F837EB}" ShortID="289811282">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.32963440860215"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.698494623655914"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_M_Select_-_V0_1_-_19-01-19" ID="{6C93F085-8CF3-440A-9C1A-D594F6F837EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemies" ID="{7BAABB79-A0CD-4470-9E9F-17993B85C3AB}" ShortID="969727941">
 					<PropertyList>
@@ -609,9 +725,298 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Small Bob" ID="{8F0E530F-D765-4CFD-80C7-330DBD15DF25}" ShortID="809785088"/>
-						<Folder Name="Mid Jim" ID="{BF8E9F6A-958E-4B91-BDDE-926D59877170}" ShortID="617151661"/>
-						<Folder Name="Big Mike" ID="{ACFE4129-A8C2-478F-9CDB-B11AFB3F73F5}" ShortID="455785306"/>
+						<Folder Name="E3 Big Mike" ID="{ACFE4129-A8C2-478F-9CDB-B11AFB3F73F5}" ShortID="455785306">
+							<ChildrenList>
+								<Sound Name="E3_Destroy_-_V0_1" ID="{0EB163FC-0510-4CDF-9F88-D7F017AA2D14}" ShortID="869756553">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{80BC2D79-6066-48D9-93DC-CB23CFAC0CDF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_E3_Destroy_-_V0_1_-_19-01-19" ID="{ED90E7EC-6052-434B-97AC-4FB9506DF449}" ShortID="458525143">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.2297031514291E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.31620193183889E-02"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.14186721204131E-03"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.998380171314016"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_E3_Destroy_-_V0.1_-_19-01-19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_E3_Destroy_-_V0_1_-_19-01-19" ID="{ED90E7EC-6052-434B-97AC-4FB9506DF449}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="E3_ShieldGrab_-_V0_1" ID="{BC4F080E-B6A5-4B77-A809-8ADA30C81951}" ShortID="236261551">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CE4BA28E-5467-4D3E-A4BF-6FAF6D4B72EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{8FB7192A-FAED-4C78-840F-5468D4309E0F}" ShortID="452405396">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.245916529979953"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.715156551849827"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{8FB7192A-FAED-4C78-840F-5468D4309E0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="E2-3_Damaged_-_V0_1" ID="{D2FC5D5B-2B21-40CE-A70C-514AE089F0BE}" ShortID="634516108">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2BC1FE6B-8397-43CA-89AC-77FED7EE990C}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_E23_Damaged_-_V0_1_-_19-01-19" ID="{4204E5F3-6FE5-4E2F-8ABD-45285DE81397}" ShortID="681518112">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.183322033898305"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.591361399671952"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_E23_Damaged_-_V0.1_-_19-01-19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_E23_Damaged_-_V0_1_-_19-01-19" ID="{4204E5F3-6FE5-4E2F-8ABD-45285DE81397}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="E1_Destroy_-_V0_1" ID="{7A0028EE-E4D8-4F4E-9B07-D8A455D7B982}" ShortID="525082006">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CC7FD998-F7A0-4CEB-A1CE-81838D81008D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_E1_Destroy_-_V0_1_-_19-01-18" ID="{4B5235F2-6E73-4732-B7F3-1D9E0E16CD79}" ShortID="195838260">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="9.97630763623111E-02"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00014579916166"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_E1_Destroy_-_V0.1_-_19-01-18.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_E1_Destroy_-_V0_1_-_19-01-18" ID="{4B5235F2-6E73-4732-B7F3-1D9E0E16CD79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="E2_Destroy_-_V0_1" ID="{FC32725C-FDBE-446E-9F7A-3CDDDF46106D}" ShortID="274838748">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0E71C709-BD2F-4F7A-9646-E2B533D4D51F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_SHMUP" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_-_E2_Destroy_-_V0_1_-_19-01-19" ID="{D1195B4B-B0B7-471C-83B4-CDDEF168EF07}" ShortID="555834197">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.188780754510662"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.988255877528705"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_-_E2_Destroy_-_V0.1_-_19-01-19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_-_E2_Destroy_-_V0_1_-_19-01-19" ID="{D1195B4B-B0B7-471C-83B4-CDDEF168EF07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

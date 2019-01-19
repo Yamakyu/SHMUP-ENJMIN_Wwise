@@ -140,12 +140,90 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="E1_Destroyed" ID="{E16BF1E6-8116-4672-890C-C6C31FE7DC45}"/>
-						<Event Name="E2_Damaged" ID="{7A3D87B3-70C3-4660-A916-35E0622A9AAA}"/>
-						<Event Name="E2_Destroyed" ID="{D5EE1E8E-E812-4EE0-8223-AC29E668F36E}"/>
-						<Event Name="E3_ShieldGrab" ID="{773DC612-8CFF-457D-8FBD-62B36E9A92B6}"/>
-						<Event Name="E3_Damaged" ID="{1937E761-2553-4751-A247-9D2251AA81A0}"/>
-						<Event Name="E3_Destroyed" ID="{9BFB7B9E-64C3-41B1-B384-43A47DCEFF43}"/>
+						<Event Name="E1_Destroyed" ID="{E16BF1E6-8116-4672-890C-C6C31FE7DC45}">
+							<ChildrenList>
+								<Action Name="" ID="{36993703-16F5-4145-9641-17EBD414C948}" ShortID="247063194">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E1_Destroy_-_V0_1" ID="{7A0028EE-E4D8-4F4E-9B07-D8A455D7B982}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="E2_Damaged" ID="{7A3D87B3-70C3-4660-A916-35E0622A9AAA}">
+							<ChildrenList>
+								<Action Name="" ID="{FB719E9B-29A1-4D3F-9D63-332F587960BA}" ShortID="1016299609">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E2-3_Damaged_-_V0_1" ID="{D2FC5D5B-2B21-40CE-A70C-514AE089F0BE}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="E2_Destroyed" ID="{D5EE1E8E-E812-4EE0-8223-AC29E668F36E}">
+							<ChildrenList>
+								<Action Name="" ID="{AA01AF7A-563E-4E20-BCE8-5ED322A6DD99}" ShortID="153786477">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E2_Destroy_-_V0_1" ID="{FC32725C-FDBE-446E-9F7A-3CDDDF46106D}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="E3_ShieldGrab" ID="{773DC612-8CFF-457D-8FBD-62B36E9A92B6}">
+							<ChildrenList>
+								<Action Name="" ID="{D576211A-8220-4331-837B-75224E3A61BA}" ShortID="23373020">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E3_ShieldGrab_-_V0_1" ID="{BC4F080E-B6A5-4B77-A809-8ADA30C81951}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="E3_Damaged" ID="{1937E761-2553-4751-A247-9D2251AA81A0}">
+							<ChildrenList>
+								<Action Name="" ID="{8D9661E5-86DC-4AD9-9D74-865FD79234C8}" ShortID="387800852">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E2-3_Damaged_-_V0_1" ID="{D2FC5D5B-2B21-40CE-A70C-514AE089F0BE}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="E3_Destroyed" ID="{9BFB7B9E-64C3-41B1-B384-43A47DCEFF43}">
+							<ChildrenList>
+								<Action Name="" ID="{BD71CFE9-E7B0-4F9E-BE7D-4B1FC56EB27E}" ShortID="604102640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E3_Destroy_-_V0_1" ID="{0EB163FC-0510-4CDF-9F88-D7F017AA2D14}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Menu" ID="{53B7F4D2-CC14-4157-B1B2-BB83E505D1A2}" ShortID="277409198">
@@ -200,12 +278,36 @@
 								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9681811E-2E5B-4398-A773-2356427E138D}" ShortID="273660188">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_Select_-_V0_1" ID="{073690C8-2767-4E1B-9F21-38243D6F6B4A}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
 						</Event>
 						<Event Name="M_Confirm" ID="{46BB0C17-3791-416F-9497-E2414A71F3F6}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F791A1DB-06AE-4865-8573-2E3C562CFAFC}" ShortID="1065774758">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_Confirm_-_V0_1" ID="{EC315DE3-69C0-461C-A4C6-70B25F1DDF51}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
 						</Event>
 						<Event Name="M_Cancel" ID="{E148C5A5-D787-496C-9F91-88C6CC6A39C7}">
 							<PropertyList>
