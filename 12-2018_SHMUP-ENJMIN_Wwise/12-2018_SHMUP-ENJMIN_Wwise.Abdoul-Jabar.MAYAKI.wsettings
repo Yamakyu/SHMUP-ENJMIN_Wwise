@@ -3,16 +3,28 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1A96D800-413E-47D1-9D7B-BA0DDB819124}">
 			<PropertyList>
+				<Property Name="Event Action List\{1937E761-2553-4751-A247-9D2251AA81A0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{298AA93C-231E-4AC8-8EAB-8EA7DD2FA85C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3AB3F505-10C5-446C-9BC4-8EF864EDE799}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{42F915E0-2CDD-4D78-B9EE-6B9313581731}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{438E003D-D6C3-465A-A52E-F074FFE6DDA1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{46BB0C17-3791-416F-9497-E2414A71F3F6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4A53D5E0-730E-4451-941D-29510C2E32BE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66B72E88-DEA3-406E-BAD9-78B26F840311}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{773DC612-8CFF-457D-8FBD-62B36E9A92B6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A3D87B3-70C3-4660-A916-35E0622A9AAA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7C0F5584-B4D5-4499-8048-025434033EBE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{95D90F31-D624-4FEF-8407-0C007FA44D80}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{96A60F2F-EE97-4583-8F89-1D88E582AF65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9B1B18AD-6A30-4559-9EBF-7C64B2B7E2DC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9BFB7B9E-64C3-41B1-B384-43A47DCEFF43}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A11D3952-FCA8-4065-BC46-779F7259FCFA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B190BABA-27F5-458D-8C15-DF280F6A9824}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2866DEC-7D03-4866-AB98-A43D34C1EC3A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D5EE1E8E-E812-4EE0-8223-AC29E668F36E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E148C5A5-D787-496C-9F91-88C6CC6A39C7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E16BF1E6-8116-4672-890C-C6C31FE7DC45}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E9F55750-9F8F-4378-A104-20BC1662B546}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -25,6 +37,15 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Game Object" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Global" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Sub Type - Mask" Type="int32" Value="8191"/>
+				<Property Name="Game Profiler\Capture List\Filters\Type - Mask" Type="int32" Value="8191"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Game Objects" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Hierarchy" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Parents" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - PlayingID" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Use Hierarchy" Type="bool" Value="False"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>

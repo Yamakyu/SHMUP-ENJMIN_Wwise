@@ -134,45 +134,87 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}">
+				<Folder Name="Enemies_Events" ID="{B3C94689-C300-4E6B-B9EA-F83CD0F6DEEC}" ShortID="319319957">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="Color" Type="int16" Value="3"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{F6DE8B01-61BB-463A-8197-3B4C7E3E5E01}" ShortID="181889932">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{ABC3AC4A-E51D-4D95-A856-EF1DE1078926}" ShortID="970086162">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}" WorkUnitID="{4F8C6985-1394-4928-8585-1764048F83EB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D0125AEF-EE81-47A1-9781-C75D0ADC0883}" ShortID="864868225">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="E1_Destroyed" ID="{E16BF1E6-8116-4672-890C-C6C31FE7DC45}"/>
+						<Event Name="E2_Damaged" ID="{7A3D87B3-70C3-4660-A916-35E0622A9AAA}"/>
+						<Event Name="E2_Destroyed" ID="{D5EE1E8E-E812-4EE0-8223-AC29E668F36E}"/>
+						<Event Name="E3_ShieldGrab" ID="{773DC612-8CFF-457D-8FBD-62B36E9A92B6}"/>
+						<Event Name="E3_Damaged" ID="{1937E761-2553-4751-A247-9D2251AA81A0}"/>
+						<Event Name="E3_Destroyed" ID="{9BFB7B9E-64C3-41B1-B384-43A47DCEFF43}"/>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Menu" ID="{53B7F4D2-CC14-4157-B1B2-BB83E505D1A2}" ShortID="277409198">
+					<ChildrenList>
+						<Event Name="Level_01_Start" ID="{DCABFBF0-EA1B-40A7-9D98-80C6984C784A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F6DE8B01-61BB-463A-8197-3B4C7E3E5E01}" ShortID="181889932">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ABC3AC4A-E51D-4D95-A856-EF1DE1078926}" ShortID="970086162">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}" WorkUnitID="{4F8C6985-1394-4928-8585-1764048F83EB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D0125AEF-EE81-47A1-9781-C75D0ADC0883}" ShortID="864868225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHMUP_Music" ID="{2561EB6A-F1B4-4E2E-A13B-90B26177A4AF}" WorkUnitID="{1646B99C-E187-419F-9320-5A274A054455}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Start" ID="{B190BABA-27F5-458D-8C15-DF280F6A9824}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="M_Select" ID="{A11D3952-FCA8-4065-BC46-779F7259FCFA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="M_Confirm" ID="{46BB0C17-3791-416F-9497-E2414A71F3F6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="M_Cancel" ID="{E148C5A5-D787-496C-9F91-88C6CC6A39C7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

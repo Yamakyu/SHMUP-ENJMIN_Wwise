@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}" SchemaVersion="89">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="Var_Master_Audio" ID="{984E49BD-C22B-48EF-8054-9184E6975151}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

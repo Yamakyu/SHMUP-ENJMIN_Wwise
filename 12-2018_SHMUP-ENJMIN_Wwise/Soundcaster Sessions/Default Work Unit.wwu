@@ -42,7 +42,12 @@
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Var_Master_Audio" ID="{984E49BD-C22B-48EF-8054-9184E6975151}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Level1" ID="{01B724B9-AECA-49F1-995F-1E4302B08BDE}"/>
