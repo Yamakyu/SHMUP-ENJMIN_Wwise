@@ -24,7 +24,7 @@
 							<ObjectRef Name="VORBIS_SHMUP" ID="{BDA0CE04-B76C-4843-B2BB-0ECC23602761}" WorkUnitID="{165AD491-E338-41F5-86C2-4108174EAA13}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
+							<ObjectRef Name="Music_Bus" ID="{5A2724B1-EBA6-4AB2-8E34-375B735929F4}" WorkUnitID="{8EE42537-6C2A-498B-A4F8-A40A1BF618DD}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

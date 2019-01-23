@@ -12,6 +12,16 @@
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Var_SFX_Volume" ID="{13A59AFB-279D-43AD-99AF-6CAE98AC4FE1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Var_Music_Volume" ID="{93695425-E0A1-43F6-B188-9F280863F474}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -54,6 +54,102 @@
 							<ObjectRef Name="System" ID="{2B636552-C28E-4272-86AA-ADD6C963C346}" WorkUnitID="{A305B541-0077-4920-8D57-49A7BBB57031}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music_Bus" ID="{5A2724B1-EBA6-4AB2-8E34-375B735929F4}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{34478EC9-1012-4A4E-9553-332CEE7072E9}" ShortID="928154953">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Var_Music_Volume" ID="{93695425-E0A1-43F6-B188-9F280863F474}" WorkUnitID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5816F5F9-3718-47DF-A798-C8E5C027E5D6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>-30</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25</XPos>
+														<YPos>-12</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX_Bus" ID="{232EBEB8-F033-43D1-816E-2E80DB5657CA}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{66A8F02F-5CB1-4181-8E84-0A911A1F43F6}" ShortID="133119738">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Var_SFX_Volume" ID="{13A59AFB-279D-43AD-99AF-6CAE98AC4FE1}" WorkUnitID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7647AE73-D85B-4278-8CF5-0FE5E2C367FF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>-30</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25</XPos>
+														<YPos>-12</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

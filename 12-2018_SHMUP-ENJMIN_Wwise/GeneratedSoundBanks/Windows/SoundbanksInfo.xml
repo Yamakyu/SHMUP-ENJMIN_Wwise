@@ -48,7 +48,7 @@
 				</File>
 				<File Id="195838260" Language="SFX">
 					<ShortName>SFX_-_E1_Destroy_-_V0.1_-_19-01-18.wav</ShortName>
-					<Path>SFX\SFX_-_E1_Destroy_-_V0.1_-_19-01-18_AC7CF2AA.wem</Path>
+					<Path>SFX\SFX_-_E1_Destroy_-_V0.1_-_19-01-18_C49F9719.wem</Path>
 				</File>
 				<File Id="221440909" Language="SFX">
 					<ShortName>SFX_-_H_Grab-3_-_V0.1.1_-_19-01-11.wav</ShortName>
@@ -64,7 +64,7 @@
 				</File>
 				<File Id="378128112" Language="SFX">
 					<ShortName>Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002.wav</ShortName>
-					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002_BE10228B.wem</Path>
+					<Path>SFX\Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002_C24120F3.wem</Path>
 				</File>
 				<File Id="452405396" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
@@ -108,7 +108,7 @@
 				</File>
 				<File Id="868740909" Language="SFX">
 					<ShortName>SFX_-_H_Launch-1_-_V0.2_-_19-01-16.wav</ShortName>
-					<Path>SFX\SFX_-_H_Launch-1_-_V0.2_-_19-01-16_737AAF6B.wem</Path>
+					<Path>SFX\SFX_-_H_Launch-1_-_V0.2_-_19-01-16_1F059DCC.wem</Path>
 				</File>
 				<File Id="889678277" Language="SFX">
 					<ShortName>shmupv1_130bpm_69bars_8introbars.wav</ShortName>
