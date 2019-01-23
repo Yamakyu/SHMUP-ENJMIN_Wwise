@@ -1,4 +1,5 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	2235205063	Var_Combo_Count			\Default Work Unit\Var_Combo_Count	
 	2828389253	Var_Music_Volume			\Default Work Unit\Var_Music_Volume	
 	2950121493	Var_SFX_Volume			\Default Work Unit\Var_SFX_Volume	
 	3897966950	Var_Master_Audio			\Default Work Unit\Var_Master_Audio	
