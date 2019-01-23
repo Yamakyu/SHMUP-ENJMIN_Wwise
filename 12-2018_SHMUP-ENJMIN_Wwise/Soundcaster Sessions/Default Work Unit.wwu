@@ -79,6 +79,10 @@
 							<GameParameterRef Name="Var_Master_Audio" ID="{984E49BD-C22B-48EF-8054-9184E6975151}"/>
 							<Value>100</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}"/>
+							<Value>1.37300481481331E-311</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">

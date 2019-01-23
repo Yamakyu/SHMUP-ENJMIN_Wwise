@@ -147,6 +147,34 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{4A14C04D-B47A-44F5-B12E-ED1CA1B9B31F}" ShortID="1012416152">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}" WorkUnitID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CE774E0E-5486-447D-B219-306639BCCFC6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>900</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 						</Bus>
 					</ChildrenList>
