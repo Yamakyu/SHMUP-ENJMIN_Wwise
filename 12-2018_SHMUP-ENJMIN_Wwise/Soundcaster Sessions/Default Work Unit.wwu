@@ -81,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}"/>
-							<Value>10</Value>
+							<Value>8.99678972712681</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
