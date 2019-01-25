@@ -176,7 +176,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="E2_Destroy_-_V0_2" ID="{9561DCCB-F025-4443-9A18-1A1CD406BF76}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+											<ObjectRef Name="E2_Destroy_-_V0_3" ID="{957278F7-14FE-44C2-B350-B9F1F8997E32}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -50,11 +50,11 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E2_Destroy_-_V0_1" ID="{FC32725C-FDBE-446E-9F7A-3CDDDF46106D}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="E2_Destroy_-_V0_3" ID="{957278F7-14FE-44C2-B350-B9F1F8997E32}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E3_Destroy_-_V0_2" ID="{CC20D82E-A3CA-4D2E-B026-017CA8E57C5F}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
+							<ObjectRef Name="E3_Destroy_-_V0_3" ID="{533E40D6-2418-4156-A2E6-B600546C7AB4}" WorkUnitID="{063F865F-65D7-4253-ADC3-1D689B754A50}"/>
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
@@ -81,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}"/>
-							<Value>1.37300481481331E-311</Value>
+							<Value>10</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

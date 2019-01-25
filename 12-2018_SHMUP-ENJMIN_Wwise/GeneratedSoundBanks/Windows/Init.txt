@@ -1,3 +1,19 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1744571722	PitchRaising			\Default Work Unit\PitchRaising	
+
+Switch	ID	Name	Switch Group			Notes
+	2932016816	Combo7	PitchRaising			
+	2932016817	Combo6	PitchRaising			
+	2932016818	Combo5	PitchRaising			
+	2932016819	Combo4	PitchRaising			
+	2932016820	Combo3	PitchRaising			
+	2932016821	Combo2	PitchRaising			
+	2932016822	Combo1	PitchRaising			
+	2932016830	Combo9	PitchRaising			
+	2932016831	Combo8	PitchRaising			
+	3540226226	Combo10	PitchRaising			
+	4110665272	Combo_0	PitchRaising			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2235205063	Var_Combo_Count			\Default Work Unit\Var_Combo_Count	
 	2828389253	Var_Music_Volume			\Default Work Unit\Var_Music_Volume	
@@ -6,6 +22,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	213475909	SFX_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies	
 	2680856269	Music_Bus			\Default Work Unit\Master Audio Bus\Music_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

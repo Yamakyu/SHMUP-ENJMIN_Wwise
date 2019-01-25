@@ -13,6 +13,91 @@
 						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
+				<SwitchGroup Name="PitchRaising" ID="{89A9DADB-C9B9-4F5D-8011-E3CAEE6C588E}">
+					<ChildrenList>
+						<Switch Name="Combo1" ID="{FD0515FC-7FD0-4329-9D7B-A399E457AB45}"/>
+						<Switch Name="Combo2" ID="{2144A071-4694-43BE-B17A-AE5E0CCE9F23}"/>
+						<Switch Name="Combo3" ID="{D0730A11-006B-400A-940D-5F85FAE462BA}"/>
+						<Switch Name="Combo4" ID="{912B7EE2-A770-4360-B4A7-0D19A79B74DC}"/>
+						<Switch Name="Combo5" ID="{FD91E840-22DB-4894-B0A7-B47ECB529BA4}"/>
+						<Switch Name="Combo6" ID="{C416043F-DBD9-4D48-BD6B-7C429FE3E1FE}"/>
+						<Switch Name="Combo7" ID="{474DAEA8-5B31-4BB6-89B6-6D0B6171C589}"/>
+						<Switch Name="Combo8" ID="{7C56512C-4137-4ED7-89DF-D16E19B37ED3}"/>
+						<Switch Name="Combo9" ID="{2BF88B95-1AD2-4636-8F06-77617C32E54E}"/>
+						<Switch Name="Combo10" ID="{8877DDFD-F4E1-4D38-BE40-7C0C5CF176F0}"/>
+						<Switch Name="Combo_0" ID="{D62C1C76-9EFC-4815-BD8E-7A6624594AB8}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}"/>
+						<Curve Name="" ID="{2E755271-826D-4432-8F18-911D92F88CE2}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.001</XPos>
+									<YPos>11</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>6</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>7</XPos>
+									<YPos>7</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>8</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>9</XPos>
+									<YPos>9</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>10</XPos>
+									<YPos>10</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

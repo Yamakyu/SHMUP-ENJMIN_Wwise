@@ -147,35 +147,41 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="Pitch" Type="int32">
-									<RTPCList>
-										<RTPC Name="" ID="{4A14C04D-B47A-44F5-B12E-ED1CA1B9B31F}" ShortID="1012416152">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}" WorkUnitID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{CE774E0E-5486-447D-B219-306639BCCFC6}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>10</XPos>
-														<YPos>900</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Enemies" ID="{82C24AEF-E76F-4B39-8BA7-E81CD3E1A3BF}">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{8868F3FF-2C40-46E1-AEB4-C08E35143EE8}" ShortID="699843953">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Var_Combo_Count" ID="{A3C7DFAA-3962-4922-A1EC-C8BCEDC7FEBB}" WorkUnitID="{AFC70BB0-D6DA-413F-BA3F-9BDCC0379297}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{802F44D5-F237-4D2D-B5B5-67F1DB9C7361}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>2000</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

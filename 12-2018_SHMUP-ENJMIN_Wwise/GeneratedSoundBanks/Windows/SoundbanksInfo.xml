@@ -60,7 +60,11 @@
 				</File>
 				<File Id="308640106" Language="SFX">
 					<ShortName>SFX_-_S_Destroy_-_V0.1_-_19-01-12.wav</ShortName>
-					<Path>SFX\SFX_-_S_Destroy_-_V0.1_-_19-01-12_FF107FF4.wem</Path>
+					<Path>SFX\SFX_-_S_Destroy_-_V0.1_-_19-01-12_323FACE2.wem</Path>
+				</File>
+				<File Id="357556828" Language="SFX">
+					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
+					<Path>SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_E412EF97.wem</Path>
 				</File>
 				<File Id="378128112" Language="SFX">
 					<ShortName>Hook_Pull\SFX_-_H_Pull-1_-_V0.1_-_19-01-08-002.wav</ShortName>
@@ -80,7 +84,7 @@
 				</File>
 				<File Id="668240043" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
-					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_FF107FF4.wem</Path>
+					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_23739B3E.wem</Path>
 				</File>
 				<File Id="668586021" Language="SFX">
 					<ShortName>SFX_-_M_Confirm_-_V0.1_-_19-01-19.wav</ShortName>
@@ -90,13 +94,9 @@
 					<ShortName>SFX_-_E23_Damaged_-_V0.1_-_19-01-19.wav</ShortName>
 					<Path>SFX\SFX_-_E23_Damaged_-_V0.1_-_19-01-19_47F94576.wem</Path>
 				</File>
-				<File Id="722484593" Language="SFX">
-					<ShortName>SFX_-_E2_Destroy_-_V0.2_-_19-01-20.wav</ShortName>
-					<Path>SFX\SFX_-_E2_Destroy_-_V0.2_-_19-01-20_FF107FF4.wem</Path>
-				</File>
 				<File Id="727086274" Language="SFX">
 					<ShortName>SFX_-_E3_Destroy_-_V0.3_-_19-01-20.wav</ShortName>
-					<Path>SFX\SFX_-_E3_Destroy_-_V0.3_-_19-01-20_FF107FF4.wem</Path>
+					<Path>SFX\SFX_-_E3_Destroy_-_V0.3_-_19-01-20_4BCD50DD.wem</Path>
 				</File>
 				<File Id="811857669" Language="SFX">
 					<ShortName>SFX_-_S_Hurt_-_V0.1_-_19-01-11.wav</ShortName>
